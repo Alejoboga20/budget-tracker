@@ -19,6 +19,7 @@ export const Provider = ({ children }) => {
 			value={{
 				deleteTransaction,
 				addTransaction,
+				transactions,
 			}}
 		>
 			{children}
